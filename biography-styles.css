@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.navbar-text {
+    font-size: 14px;
+}
+
+.navbar-text span {
+   padding: 0 20px;
+}
+
+.hi {
+    font-weight: bold;
+}
+
+.button-descargar {
+    width: 240px;
+    height: 49px;
+    border-radius: 90px;
+    background: #42E2B8;
+    font-weight: bold;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+    
+}
+    
+.text-principal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hellow {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.im-elisa {
+    font-size: 59px;
+    font-weight: bold;
+}
+
+.frontend {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.icons-containercolor {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+.icons {
+    height: 44px;
+    width: 44px;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    background: #42E2B8;
+    padding: 10px 10px;
+}
+.input-icon{
+    height: 22px;
+}
+
+.elisa-image {
+    width: 604px;
+}
+
+.body-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 100px;
+    gap: 24px;
+}
+
+.textone {
+    text-align: center;
+    font-size: 34px;
+}
+
+.texttwo {
+    text-align: center;
+    font-size: 24px;
+}
+
+.body-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.leonidas-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 64px;
+    background: black;
+    font-size: 34px;
+    text-align: center;
+    color: #42E2B8;
+}
+
+.leonidas-com span {
+    font-weight: bold;
+}
+
+.button-one{
+    width: 165px;
+    height: 49px;
+    border-radius: 90px;
+    background: #42E2B8;
+    font-size: 14px;
+
+} 
+
+.button-two{
+    width: 165px;
+    height: 49px;
+    border-radius: 90px;
+    font-size: 14px;
+    background: transparent;
+
+}
+
+.body-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1132px;
+    height: 435px;
+    border: 3px solid hsl(0, 0%, 100%);
+    border-radius: 34px;
+    background: #f9d1b9;
+    gap: 30px;
+}
+
+.marvol-container {
+    display: flex;
+    align-items: flex-start;  
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.text-leonidas {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.body-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.body-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 40px;
+}
+
+.body-six {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 100px;
+    gap: 40px;
+}
+
+.text-netnet{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.body-seven {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+
+.body-eight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.datos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    ;
+}
+
+.input{
+    width: 543px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(133, 140, 148, 1);
+    outline: none;
+}
+.mensaje{
+    height: 134px;
+}
+
+.hablemos{
+    width: 543px;
+}
+
+.envia-mensaje {
+    width: 543px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
